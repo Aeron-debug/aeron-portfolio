@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aeron Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=link" />
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 id="logo"><span>A</span>eron</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Projects</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <span class="material-icons-sharp" onclick="closemenu()">
+                        closed
+                    </span>
+                </ul>
+                <!--!Menu Icons-->
+                <span class="material-icons-sharp" onclick="openmenu()">
+                    menu
+                </span>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <span>Aeron</span><br> Asug From Canada</h1>
+            </div>
+        </div>
+    </div>
+    <!--!About contents-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="https://cdn.pixabay.com/photo/2024/05/15/20/57/developer-8764522_640.jpg" alt="no image">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Sint saepe repellendus in! Quaerat dolor ex iure error voluptatem 
+                    molestias modi veritatis voluptatibus nobis eligendi, minima, ipsa, 
+                    consectetur illo voluptates accusantium.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI?UX</span>
+                            <br>Designining Web/App Interfaces</li>
+                            <li><span>Web Development</span>
+                            <br>Web app Interfaces</li>
+                            <li><span>App Development</span>
+                            <br>Building Android/IOS Interfaces</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2024 - Current</span>
+                            <br>Designining Web/App Interfaces</li>
+                            <li><span>Web Development</span>
+                            <br>Web app Interfaces</li>
+                            <li><span>App Development</span>
+                            <br>Building Android/IOS Interfaces</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024 - Current</span>
+                            <br>Designining Web/App Interfaces</li>
+                            <li><span>Web Development</span>
+                            <br>Web app Interfaces</li>
+                            <li><span>App Development</span>
+                            <br>Building Android/IOS Interfaces</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--!Services contents-->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <span class="material-icons-sharp">
+                        code
+                    </span>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur
+                    adipisicing elit. Maxime, totam voluptatem consectetur 
+                    porro quis</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <span class="material-icons-sharp">
+                        crop
+                    </span>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur
+                    adipisicing elit. Maxime, totam voluptatem consectetur 
+                    porro quis</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <span class="material-icons-sharp">
+                        apps
+                    </span>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur
+                    adipisicing elit. Maxime, totam voluptatem consectetur 
+                    porro quis</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--!Portfolio Contents-->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Hobbies</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="https://cdn.pixabay.com/photo/2024/05/15/20/57/developer-8764522_640.jpg" alt="image">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you to the talented people around
+                        the world. Download it from play store.</p>
+                        <a href="#">
+                            <span class="material-symbols-outlined">
+                                link
+                            </span>   
+                        </a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="https://cdn.pixabay.com/photo/2024/05/15/20/57/developer-8764522_640.jpg" alt="image">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you to the talented people around
+                        the world. Download it from play store.</p>
+                        <a href="#">
+                            <span class="material-symbols-outlined">
+                                link
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="https://cdn.pixabay.com/photo/2024/05/15/20/57/developer-8764522_640.jpg" alt="image">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you to the talented people around
+                        the world. Download it from play store.</p>
+                        <a href="#">
+                            <span class="material-symbols-outlined">
+                                link
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!--!Contact contents-->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><a href="#">
+                        <span class="material-icons-sharp">
+                            send
+                        </span>
+                    </a>contact@example.com</p>
+                    <p>
+                        <span class="material-icons-sharp">
+                            phone
+                        </span>
+                    <a href="#">(639)536-5345</a></p>
+                    <div class="social-icons"><!--!Social Media Links-->
+                        <a href="#">
+                            <span class="material-icons-sharp">
+                                facebook
+                            </span>
+                        </a>
+                        <a href="#">
+                            <span class="material-icons-sharp">
+                                tiktok
+                            </span>
+                        </a>
+                    </div>
+                    <a href="#" download class="btn btn2">Download CV</a><!--!Add a pdf file here-->
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" row="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; Aeron. Made with&nbsp;❤️&nbsp;by Aeron Asug</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        
+        function opentab(tabname) {
+          for (var tablink of tablinks) {
+            tablink.classList.remove("active");
+          }
+          for (var tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+          }
+          event.currentTarget.classList.add("active");
+          document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyWz3nIo_UeOV1x2mvijAOvQdxLqhWyeHjTastHeJLiaD0D3aBIFF4P3BDJneu68hfM/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function() {
+                    msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+            .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+</html>
